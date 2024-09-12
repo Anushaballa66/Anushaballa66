@@ -1,0 +1,27 @@
+IPv4 (Internet Protocol version 4) is the fourth version of the Internet Protocol (IP), widely used to identify devices on a network using an addressing system. Below are some key aspects of IPv4:
+
+1. Address Format
+IPv4 addresses are 32-bit numbers, represented in a dotted decimal format, like 192.168.1.1.
+Each address consists of four octets, with each octet representing 8 bits (one byte). The values range from 0 to 255.
+2. Address Classes
+IPv4 addresses are divided into five classes: A, B, C, D, and E. Classes A, B, and C are used for general unicast traffic, while classes D and E have specialized purposes.
+Class A: Large networks, 0.0.0.0 to 127.255.255.255.
+Class B: Medium-sized networks, 128.0.0.0 to 191.255.255.255.
+Class C: Small networks, 192.0.0.0 to 223.255.255.255.
+Class D: Multicasting, 224.0.0.0 to 239.255.255.255.
+Class E: Reserved for future use, 240.0.0.0 to 255.255.255.255.
+3. Subnetting
+IPv4 supports subnetting, where an IP address can be divided into network and host portions. This is done to efficiently allocate IP addresses within a larger network.
+Subnetting uses a subnet mask like 255.255.255.0 to define how many bits are used for the network versus the host.
+4. Private and Public IPs
+Public IP addresses are routable on the internet and are assigned by Internet Service Providers (ISPs).
+Private IP addresses are used within private networks and are not routable on the public internet. Common private IP ranges include:
+10.0.0.0 to 10.255.255.255 (Class A)
+172.16.0.0 to 172.31.255.255 (Class B)
+192.168.0.0 to 192.168.255.255 (Class C)
+5. NAT (Network Address Translation)
+Due to the limited number of IPv4 addresses, NAT allows multiple devices on a local network to share a single public IP address when accessing the internet.
+6. Exhaustion and Transition to IPv6
+IPv4 addresses are limited to around 4.3 billion unique addresses, and due to the explosive growth of internet-connected devices, the pool of available addresses has largely been exhausted.
+To address this, IPv6 was developed, offering a much larger address space (128-bit addresses).
+IPv4 remains widely used, though there is an increasing shift toward IPv6 to address the limitations of the older system.
